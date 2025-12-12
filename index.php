@@ -1,7 +1,7 @@
 <?php
 
-$domain = 'http://localhost/altranstravel.web.id/';
-// $domain = 'https://altranstravel.web.id/';
+// $domain = 'http://localhost/altranstravel.web.id/';
+$domain = 'https://altranstravel.web.id/';
 $brand = 'AL Trans Travel';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
