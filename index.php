@@ -333,6 +333,15 @@ $harga = [
   </header>
 
   <main class="overflow-x-hidden">
+
+    <?php if (isset($logoShared)): ?>
+      <div class="container">
+        <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
+          <img src="<?= $domain . $logoShared ?>" class="mx-auto rounded-lg w-full !max-w-96" alt="Harga Travel">
+        </a>
+      </div>
+    <?php endif; ?>
+
     <!-- Hero Section -->
     <section class="container">
       <div
