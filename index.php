@@ -1,16 +1,16 @@
 <?php
 
-// $domain = 'http://localhost/altranstravel.web.id/';
-$domain = 'https://altranstravel.web.id/';
-$brand = 'AL Trans Travel Grup';
+// $domain = 'http://localhost/maziatranstravel.web.id/';
+$domain = 'https://maziatranstravel.web.id/';
+$brand = 'Mazia Trans Travel';
 $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
 $title = $brand . " Pangandaran, Ciamis, Tasik, Garut, Bandung & Jabodetabek";
 $desc = $brand . " akan membantu anda melakukan travel dari Pangandaran, Ciamis, Tasik, Garut, Bandung ke Jabodetabek dengan harga murah dan terjangkau.";
-$telp = '0838-4606-3835';
+$telp = '0857-2360-1196';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Sadananya, Kec. Sadananya, Kabupaten Ciamis, Jawa Barat 46256, Indonesia';
+$alamat = 'Jl. Raya Cieurih, RT.04/RW.04, Cieurih, Kec. Cipaku, Kabupaten Ciamis, Jawa Barat 26252';
 
 
 $iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7711643901207!2d108.31950317410771!3d-7.266862492740023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5b7818e9a611%3A0xd88b5c9b589e3cf5!2sP8MC%2B7R4%2C%20Sadananya%2C%20Kec.%20Sadananya%2C%20Kabupaten%20Ciamis%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1761023844015!5m2!1sid!2sid';
