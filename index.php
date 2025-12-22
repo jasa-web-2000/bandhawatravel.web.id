@@ -1,6 +1,6 @@
 <?php
 
-// $domain = 'http://localhost/maziatranstravel.web.id/';
+// $domain = 'http://192.168.1.4/maziatranstravel.web.id/';
 $domain = 'https://maziatranstravel.web.id/';
 $brand = 'Mazia Trans Travel';
 $logoShared = 'src/img/harga-travel.jpg';
@@ -13,7 +13,7 @@ $telp = '0857-2360-1196';
 $alamat = 'Jl. Raya Cieurih, RT.04/RW.04, Cieurih, Kec. Cipaku, Kabupaten Ciamis, Jawa Barat 26252';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7711643901207!2d108.31950317410771!3d-7.266862492740023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5b7818e9a611%3A0xd88b5c9b589e3cf5!2sP8MC%2B7R4%2C%20Sadananya%2C%20Kec.%20Sadananya%2C%20Kabupaten%20Ciamis%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1761023844015!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.1875618810896!2d108.35952177499937!3d-7.219434992786437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTMnMTAuMCJTIDEwOMKwMjEnNDMuNiJF!5e0!3m2!1sen!2sid!4v1766389621392!5m2!1sen!2sid';
 
 
 function res_telp($telp)
@@ -53,67 +53,80 @@ $menu = [
 
 
 $rute = [
-  "Travel Pangandaran Jakarta",
+  "Travel Banjar Bandung",
+  "Travel Ciamis Bandung",
+  "Travel Tasik Bandung",
+
+  "Travel Banjar Jakarta",
   "Travel Ciamis Jakarta",
   "Travel Tasik Jakarta",
-  "Travel Garut Jakarta",
-  "Travel Bandung Jakarta",
 
-  "Travel Pangandaran Bogor",
+  "Travel Banjar Bogor",
   "Travel Ciamis Bogor",
   "Travel Tasik Bogor",
-  "Travel Garut Bogor",
-  "Travel Bandung Bogor",
 
-  "Travel Pangandaran Depok",
+  "Travel Banjar Depok",
   "Travel Ciamis Depok",
   "Travel Tasik Depok",
-  "Travel Garut Depok",
-  "Travel Bandung Depok",
 
-  "Travel Pangandaran Tangerang",
-  "Travel Ciamis Tangerang",
-  "Travel Tasik Tangerang",
-  "Travel Garut Tangerang",
-  "Travel Bandung Tangerang",
-
-  "Travel Pangandaran Bekasi",
+  "Travel Banjar Bekasi",
   "Travel Ciamis Bekasi",
   "Travel Tasik Bekasi",
-  "Travel Garut Bekasi",
+
+  "Travel Banjar Tangerang",
+  "Travel Ciamis Tangerang",
+  "Travel Tasik Tangerang",
+
+  "Travel Banjar Bandara",
+  "Travel Ciamis Bandara",
+  "Travel Tasik Bandara",
+
+
+  "Travel Bandung Jakarta",
+  "Travel Bandung Bogor",
+  "Travel Bandung Depok",
   "Travel Bandung Bekasi",
+  "Travel Bandung Tangerang",
+  "Travel Bandung Bandara",
+
 
   // PP
 
-  "Travel Jakarta Pangandaran",
+  "Travel Bandung Banjar",
+  "Travel Bandung Ciamis",
+  "Travel Bandung Tasik",
+
+  "Travel Jakarta Banjar",
   "Travel Jakarta Ciamis",
   "Travel Jakarta Tasik",
-  "Travel Jakarta Garut",
-  "Travel Jakarta Bandung",
 
-  "Travel Bogor Pangandaran",
+  "Travel Bogor Banjar",
   "Travel Bogor Ciamis",
   "Travel Bogor Tasik",
-  "Travel Bogor Garut",
-  "Travel Bogor Bandung",
 
-  "Travel Depok Pangandaran",
+  "Travel Depok Banjar",
   "Travel Depok Ciamis",
   "Travel Depok Tasik",
-  "Travel Depok Garut",
-  "Travel Depok Bandung",
 
-  "Travel Tangerang Pangandaran",
-  "Travel Tangerang Ciamis",
-  "Travel Tangerang Tasik",
-  "Travel Tangerang Garut",
-  "Travel Tangerang Bandung",
-
-  "Travel Bekasi Pangandaran",
+  "Travel Bekasi Banjar",
   "Travel Bekasi Ciamis",
   "Travel Bekasi Tasik",
-  "Travel Bekasi Garut",
+
+  "Travel Tangerang Banjar",
+  "Travel Tangerang Ciamis",
+  "Travel Tangerang Tasik",
+
+  "Travel Bandara Banjar",
+  "Travel Bandara Ciamis",
+  "Travel Bandara Tasik",
+
+
+  "Travel Jakarta Bandung",
+  "Travel Bogor Bandung",
+  "Travel Depok Bandung",
   "Travel Bekasi Bandung",
+  "Travel Tangerang Bandung",
+  "Travel Bandara Bandung",
 ];
 
 $kota = [
@@ -158,7 +171,6 @@ $harga = [
   class="scroll-smooth">
 
 <head>
-
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -174,7 +186,7 @@ $harga = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TMLKN5ST');
+    })(window, document, 'script', 'dataLayer', 'GTM-TN687XK4');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -213,9 +225,10 @@ $harga = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMLKN5ST"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN687XK4"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header class="">
     <div class="container !py-0">
       <div class="flex justify-between">
@@ -223,7 +236,7 @@ $harga = [
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-10 md:w-14 m-auto rounded"
+              class="w-14 md:w-20 m-auto rounded"
               alt="logo" />
           </a>
         </div>
@@ -335,9 +348,9 @@ $harga = [
   <main class="overflow-x-hidden">
 
     <?php if (isset($logoShared)): ?>
-      <div class="container">
+      <div class="container !mb-5 lg:!mb-10">
         <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
-          <img src="<?= $domain . $logoShared ?>" class="mx-auto rounded-lg w-full !max-w-96" alt="Harga Travel">
+          <img src="<?= $domain . $logoShared ?>" class="mx-auto rounded-lg w-full" alt="Harga Travel">
         </a>
       </div>
     <?php endif; ?>
@@ -346,7 +359,7 @@ $harga = [
     <section class="container">
       <div
         style="background-image: url(./src/img/background-hero-section.jpg)"
-        class="py-10 lg:py-7 bg-fixed bg-cover bg-center rounded-lg relative">
+        class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(15_23_42_/_0.5),rgb(51_65_85_/_0.7))] from-0% via-90% to-100%">
         </div>
@@ -519,31 +532,47 @@ $harga = [
     <!-- Hero Section -->
 
     <!-- Rute Travel -->
-    <section class="container my-20" id="harga-travel">
+    <!-- <section class="container my-20" id="harga-travel">
       <div class="">
         <div class="text-center inner-container">
-          <h2 class="line-h2">Harga Travel dari <?= $brand ?></h2>
+          <h2 class="line-h2">Harga Travel dari 
+            <?
+            // $brand
+            ?>\
+           </h2>
           <p class="desc">
             Tersedia travel reguler dengan harga murah dan terjangkau.
           </p>
         </div>
         <div
           class="grid grid-cols-6 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&_img]:w-full [&_img]:h-full [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-primary-hover [&_a]:bg-primary hover:[&_a]:bg-primary-hover [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
-          <?php if (count($harga) > 0) : ?>
-            <?php foreach ($harga as $item) : ?>
-              <div class="group">
-                <img
-                  src="<?= $domain . 'src/img/harga/' . $item ?>"
-                  class="group-hover:scale-125"
-                  loading="lazy"
-                  alt="<?= $item[0] ?>" />
-              </div>
-            <?php endforeach; ?>
-          <?php endif; ?>
+          <?php
+          // if (count($harga) > 0) :
+          ?>
+          <?php
+          //  foreach ($harga as $item) : 
+          ?>
+          <div class="group">
+            <img
+              src="<?
+                    // $domain . 'src/img/harga/' . $item 
+                    ?>"
+              class="group-hover:scale-125"
+              loading="lazy"
+              alt="<?
+                    // $item[0]
+                    ?>" />
+          </div>
+          <?php
+          //  endforeach; 
+          ?>
+          <?php
+          //  endif; 
+          ?>
         </div>
 
       </div>
-    </section>
+    </section> -->
     <!-- Rute Travel -->
 
     <!-- Rute Travel -->
@@ -566,7 +595,7 @@ $harga = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="./src/img/rute-travel-al-trans-travel.jpg"
+                  src="<?= $domain ?>src/img/rute-travel.jpg"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -601,7 +630,7 @@ $harga = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-ciamis/ke-dki-jakarta/320701/31" class="underline" target="_blank">Travel Ciamis Jakarta</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
+                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-bandung-barat/ke-kabupaten-ciamis/3217/3207" class="underline" target="_blank">Travel Bandung Ciamis</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>
@@ -1214,3 +1243,15 @@ $harga = [
 </body>
 
 </html>
+
+Banjar Ciamis Tasik Ke Bandung 150
+
+Banjar Ciamis Tasik Jadetabek 250
+
+Banjar Ciamis Tasik Bogor 300
+
+Bandung Jabodetabek 250
+
+Bandung Bandara 250
+
+Banjar Ciamis Tasik Bandara 300
