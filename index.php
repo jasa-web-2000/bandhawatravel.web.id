@@ -1,14 +1,14 @@
 <?php
 
-// $domain = 'http://192.168.1.4/bandhawatravel.web.id/';
+// $domain = 'http://192.168.1.7/bandhawatravel.web.id/';
 $domain = 'https://bandhawatravel.web.id/';
-$brand = 'Bandhawa travel';
+$brand = 'Bandhawa Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
 $title = $brand . " Rute Cianjur, Sukabumi, Jabodetabek & Bandara";
 $desc = $brand . " adalah layanan jasa transportasi travel terbaik yang melayani rute Cianjur, Sukabumi, Jabodetabek & Bandara dengan sistem door to door. Pesan sekarang untuk pengalaman perjalanan yang nyaman dan aman.";
-$telp = '0822-9814-3930';
+$telp = '0811-2286-1998';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Perumahan Bumi Tirta Nirwana, Blok L3 No. 6, Gekbrong, Kabupaten Cianjur, Jawa Barat';
 
